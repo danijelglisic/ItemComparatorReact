@@ -1,0 +1,16 @@
+.final {
+  font-size: 1.5em;
+  position: relative;
+  animation-name: scale;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+
+@keyframes scale {
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

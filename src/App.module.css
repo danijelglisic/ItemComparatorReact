@@ -1,0 +1,31 @@
+.layout {
+  padding: 0.35em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+}
+
+button {
+  padding: 16px 32px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  color: #009879;
+  border: 1px solid #f8f8f871;
+  border-radius: 3px;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  filter: drop-shadow(0 2px 8px #f3f3f352);
+  transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  max-width: 15em;
+}
+
+button:hover {
+  background-color: #ddd;
+  border: 1px solid #f8f8f8;
+  cursor: pointer;
+}
